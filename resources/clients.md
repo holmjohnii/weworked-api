@@ -40,6 +40,8 @@ Returns an array of client objects.
 
 ### The client object attributes:
 
+| Attribute  | Description   |
+| ---------- | ------------- |
 | clientId   | Content Cell  |
 | name       | Content Cell  |
 | address    | Content Cell  |
