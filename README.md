@@ -12,6 +12,9 @@ You can view and request your API key from the administration section of your We
 
 You must include the **`x-api-key`** header in every request. All API requests must be made over HTTPS.
 
+## Making a Request
+All requests must be made using HTTPS. All URLs start with **`https://api.weworked.com/`**. For example, to request a list of all your clients, append the clients resoure path to the base URL. It complete URL should look like `https://api.weworked.com/clients`. 
+
 ## Errors 
 WeWorked uses standard HTTP response codes to indicate success and failure of an API request. If WeWorked is having problems, you will get a response with a 5xx status code. We recommend writing code that gracefully processes all possible exceptions.
 
