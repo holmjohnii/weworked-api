@@ -1,7 +1,7 @@
 # The WeWorked API
 Welcome to API reference for WeWorked! 
 
-The WeWorked API is organized around REST. The API provides read-only predictable resource-structured URLs that return JSON-encoded responses with standard HTTP response codes, authentication and verbs.
+The WeWorked API is organized around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). The API provides read-only predictable resource-structured URLs that return [JSON-encoded](https://www.json.org/json-en.html) responses with standard HTTP response codes, authentication and verbs.
 
 The WeWorked API is read-only for now, meaning you can only pull data. Changing data in WeWorked may become available in the future.
 
