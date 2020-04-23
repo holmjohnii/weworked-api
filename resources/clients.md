@@ -1,7 +1,8 @@
 
+# Clients
 The client resource allows you to retrieve individual clients as well as a list of all your clients.
 
-# Endpoints
+## Endpoints
 * Retrieve a client
 * List all clients
 
