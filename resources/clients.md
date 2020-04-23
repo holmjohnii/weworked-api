@@ -53,6 +53,11 @@ Returns an array of client objects.
 | VATNumber  | The client's VAT number  |
 | contact    | The main client's point of contact  |
 
+-------------
 
+##### Example JSON Response
+```SAMPLE RESPONSE
+WILL
+GO HERE```
 
 
