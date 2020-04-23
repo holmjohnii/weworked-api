@@ -17,6 +17,8 @@ No parameters
 ### Returns
 Returns a client object if a valid identifier was provided. 
 
+-------------
+
 ## List all clients
 Returns a list of your clients in alphabetical order.
 
@@ -28,6 +30,6 @@ No parameters
 ### Returns
 Returns an array of client objects.
 
-# The client object attributes:
+## The client object attributes:
 
 
