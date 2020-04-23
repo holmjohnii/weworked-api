@@ -39,16 +39,18 @@ Returns an array of client objects.
 -------------
 
 ### The client object attributes:
-- clientId
-fdjsjdfsdfsf
-- name
-- address
-- city
-- state
-- zip
-- country
-- isActive
-- VATNumber
-- contact
+
+| clientId   | Content Cell  |
+| name       | Content Cell  |
+| address    | Content Cell  |
+| city       | Content Cell  |
+| state      | Content Cell  |
+| zip        | Content Cell  |
+| country    | Content Cell  |
+| isActive   | Content Cell  |
+| VATNumber  | Content Cell  |
+| contact    | Content Cell  |
+
+
 
 
