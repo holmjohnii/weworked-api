@@ -10,7 +10,7 @@ The WeWorked API uses API keys to authenticate requests. Every request must incl
 
 You can view and request your API key from the administration section of your WeWorked account. 
 
-You must include a x-api-key header in every request. All API requests must be made over HTTPS.
+You must include a **x-api-key** header in every request. All API requests must be made over HTTPS.
 
 ## Errors 
 WeWorked uses standard HTTP response codes to indicate success and failure of an API request. If WeWorked is having problems, you will get a response with a 5xx status code. We recommend writing code that gracefully processes all possible exceptions.
