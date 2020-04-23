@@ -36,6 +36,19 @@ No parameters
 ### Returns
 Returns an array of client objects.
 
+-------------
+
 ### The client object attributes:
+- clientId
+fdjsjdfsdfsf
+- name
+- address
+- city
+- state
+- zip
+- country
+- isActive
+- VATNumber
+- contact
 
 
