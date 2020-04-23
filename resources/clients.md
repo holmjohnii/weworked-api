@@ -3,8 +3,8 @@
 The client resource allows you to retrieve individual clients as well as a list of all your clients.
 
 ## Endpoints
-* Retrieve a client
-* List all clients
+* **Retrieve a client**
+* **List all clients**
 
 ## Retrieve a client
 Retrieves the details of an existing client. Simply provide the unique customer id.
@@ -30,6 +30,6 @@ No parameters
 ### Returns
 Returns an array of client objects.
 
-## The client object attributes:
+### The client object attributes:
 
 
