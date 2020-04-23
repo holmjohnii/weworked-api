@@ -13,7 +13,7 @@ You must include two header keys in every request:
 2. **`x-ww-user`** - The email address of your WeWorked administrator account.
 
 ## Making a Request
-All requests must be made using HTTPS. All URLs start with **`https://api.weworked.com/`**. For example, to request a list of all your clients, append the clients resoure path to the base URL. It complete URL should look like `https://api.weworked.com/clients`. 
+All requests must be made using HTTPS. All URLs start with **`https://api.weworked.com/`**. The API version number and resource is appened to the path. For example, to request a list of all your clients, append the clients resoure path to the base URL. It complete URL should look like `https://api.weworked.com/v1/clients`. 
 
 ## Errors 
 WeWorked uses standard HTTP response codes to indicate success and failure of an API request. If WeWorked is having problems, you will get a response with a 5xx status code. We recommend writing code that gracefully processes all possible exceptions.
