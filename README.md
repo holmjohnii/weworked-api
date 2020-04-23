@@ -10,7 +10,7 @@ The WeWorked API uses API keys to authenticate requests. Every request must incl
 
 You can view and request your API key from the administration section of your WeWorked account. 
 
-You must include the **`x-api-key`** header in every request. All API requests must be made over HTTPS.
+You must include the **`x-api-key`** header in every request.
 
 ## Making a Request
 All requests must be made using HTTPS. All URLs start with **`https://api.weworked.com/`**. For example, to request a list of all your clients, append the clients resoure path to the base URL. It complete URL should look like `https://api.weworked.com/clients`. 
