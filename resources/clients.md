@@ -7,7 +7,7 @@ The client resource allows you to retrieve individual clients as well as a list 
 * List all clients
 
 ## Retrieve a client
-Retrieves the details of an existing client. You only need to supply the unique customer indentifier.
+Retrieves the details of an existing client. Simply provide the unique customer id.
 
 `GET /v1/clients/:id`
 
