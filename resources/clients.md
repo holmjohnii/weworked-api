@@ -12,7 +12,7 @@ Retrieves the details of an existing client. Simply provide the unique customer 
 `GET /v1/clients/:id`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/clients"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/clients/416"`
 
 ### Parameters
 No parameters
@@ -26,6 +26,9 @@ Returns a client object if a valid identifier was provided.
 Returns a list of your clients in alphabetical order.
 
 `GET /v1/clients`
+
+##### cURL Example
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/clients"`
 
 ### Parameters
 No parameters
