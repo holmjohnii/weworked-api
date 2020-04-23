@@ -12,10 +12,10 @@ You can view and request your API key from the administration section of your We
 
 You must include a x-api-key header in every request. All API requests must be made over HTTPS.
 
-##Errors 
+## Errors 
 WeWorked uses standard HTTP response codes to indicate success and failure of an API request. If WeWorked is having problems, you will get a response with a 5xx status code. We recommend writing code that gracefully processes all possible exceptions.
 
-##JSON Responses 
+## JSON Responses 
 We always return JSON structured data with no root element.
 
 ## Versioning
