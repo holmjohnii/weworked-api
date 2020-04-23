@@ -22,7 +22,7 @@ WeWorked uses standard HTTP response codes to indicate success and failure of an
 We always return JSON structured data with no root element.
 
 ## Rate Limits
-The WeWorked API employs several safeguards against bursts of incoming traffic to help maintain stability for across accounts. Sending too many requests in a short period will result in a 429 Too Many Requests status code response. You may perform up to 200 calls in a 5 minute window. This limit is subject to change.
+The WeWorked API employs several safeguards against bursts of incoming traffic to help maintain stability for across accounts. Sending too many requests in a short period will result in a `429 Too Many Requests` status code response. You may perform up to 200 calls in a 5 minute window. This limit is subject to change.
 
 ## Versioning
 TBD
