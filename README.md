@@ -28,6 +28,7 @@ The WeWorked API employs several safeguards against bursts of incoming traffic t
 TBD
 
 ## Core Resources
+* [Clients](endpoints/clients.md)
 * Clients
 * Expenses
 * Invoices
