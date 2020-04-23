@@ -29,11 +29,10 @@ TBD
 
 ## Core Resources
 * [Clients](endpoints/clients.md)
-* Clients
-* Expenses
-* Invoices
-* Projects
-* Reports
-* Timesheets
-* Users
+* [Expenses](endpoints/clients.md)
+* [Invoices](endpoints/clients.md)
+* [Projects](endpoints/clients.md)
+* [Reports](endpoints/clients.md)
+* [Timesheets](endpoints/clients.md)
+* [Users](endpoints/clients.md)
 
