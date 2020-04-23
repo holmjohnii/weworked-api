@@ -24,9 +24,6 @@ We always return JSON structured data with no root element.
 ## Rate Limits
 The WeWorked API employs several safeguards against bursts of incoming traffic to help maintain stability for across accounts. Sending too many requests in a short period will result in a `429 Too Many Requests` status code response. You may perform up to 20 request per second. This limit is subject to change.
 
-## Versioning
-TBD
-
 ## Core Resources
 * [Clients](endpoints/clients.md)
 * [Expenses](endpoints/clients.md)
