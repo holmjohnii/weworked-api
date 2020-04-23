@@ -11,7 +11,7 @@ Retrieves the details of an existing client. Simply provide the unique customer 
 
 `GET /v1/clients/:id`
 
-### cURL Example
+#### cURL Example
 `curl -H "x-api-key: APIKEY" -H "x-ww-user: EMAIL" -X GET "https://api.weworked.com/v1/clients"`
 
 ### Parameters
