@@ -22,19 +22,19 @@ Returns an expense object if a valid identifier was provided.
 
 -------------
 
-## List all users
-Returns a list of your users in alphabetical order.
+## List all expenses
+Returns a list of your expenses in alphabetical order.
 
-`GET /v1/users`
+`GET /v1/expenses`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/users"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/expenses"`
 
 ### Parameters
 No parameters
 
 ### Returns
-Returns an array of user objects.
+Returns an array of expense objects.
 
 -------------
 
