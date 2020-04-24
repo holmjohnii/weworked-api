@@ -3,38 +3,38 @@
 The user resource allows you to retrieve individual users as well as a list of all the users on your account.
 
 ## Endpoints
-* [Retrieve a client](#retrieve-a-client)
-* [List all clients](#list-all-clients)
+* [Retrieve a user](#retrieve-a-client)
+* [List all users](#list-all-clients)
 
-## Retrieve a client
-Retrieves the details of an existing client. Simply provide the unique customer id.
+## Retrieve a user
+Retrieves the details of an existing user. Simply provide the unique user id.
 
-`GET /v1/clients/:id`
+`GET /v1/users/:id`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/clients/416"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/users/501"`
 
 ### Parameters
 No parameters
 
 ### Returns
-Returns a client object if a valid identifier was provided. 
+Returns a user object if a valid identifier was provided. 
 
 -------------
 
-## List all clients
-Returns a list of your clients in alphabetical order.
+## List all users
+Returns a list of your users in alphabetical order.
 
-`GET /v1/clients`
+`GET /v1/users`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/clients"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/users"`
 
 ### Parameters
 No parameters
 
 ### Returns
-Returns an array of client objects.
+Returns an array of user objects.
 
 -------------
 
