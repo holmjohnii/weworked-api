@@ -42,28 +42,28 @@ Returns an array of user objects.
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| userId   | Unique identifier for the client.  |
-| email       | The client's name.  |
-| approvesFor    | The client's street address. |
-| companyId       | The client's city.  |
-| isAdmin      | The client's state.  |
-| firstName        | The client's zipcode.  |
-| lastName    | The client's country.  |
-| title   | Flag indicating if the client is active or disabled. 1 = active, 0 = disabled  |
-| internalId  | The client's VAT number  |
-| trackLeave    | The main client's point of contact  |
-| isActive    | The main client's point of contact  |
-| hireDate    | The main client's point of contact  |
-| hourlyRate    | The main client's point of contact  |
-| payType    | The main client's point of contact  |
-| hourlyPayRate    | The main client's point of contact  |
-| projectsAssigned    | The main client's point of contact  |
-| country    | The main client's point of contact  |
-| phone    | The main client's point of contact  |
-| address    | The main client's point of contact  |
-| city    | The main client's point of contact  |
-| state    | The main client's point of contact  |
-| zip    | The main client's point of contact  |
+| userId   | Unique identifier for the user.  |
+| email       | The user's email.  |
+| approvesFor    | The . |
+| companyId       | The unique identier of the user's company.  |
+| isAdmin      | Flag indicating if the user is an admin. 1 = yes, 0 = no  |
+| firstName        | The user's first name.  |
+| lastName    | The users's last name.  |
+| title   | The user's title.  |
+| internalId  | The user's custom id.  |
+| trackLeave    | Flag indicating if leave is tracked for the user. 1 = yes, 0 = no |
+| isActive    | Flag indicating if the user's account is active or disabled. 1 = active, 0 = disabled  |
+| hireDate    | The user's hire date. |
+| hourlyRate    | The user's hourly billable rate  |
+| payType    | The user's pay type. S = salary, H = Hourly  |
+| hourlyPayRate    | The user's hourly pay rate. |
+| projectsAssigned    | The   |
+| country    | The user's country.  |
+| phone    | The user's phone.  |
+| address    | The user's address.  |
+| city    | The user's city.  |
+| state    | The user's state.  |
+| zip    | The user's zip.  |
 
 -------------
 
