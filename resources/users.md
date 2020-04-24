@@ -44,7 +44,7 @@ Returns an array of user objects.
 | ---------- | ------------- |
 | userId   | Unique identifier for the user.  |
 | email       | The user's email.  |
-| approvesFor    | Description of the people who the user approves time for. |
+| approvesFor    | Description of the people who the user approves time for. Everyone, Nobody, Group, or People. |
 | companyId       | The unique identier of the user's company.  |
 | isAdmin      | Flag indicating if the user is an admin. 1 = yes, 0 = no  |
 | firstName        | The user's first name.  |
