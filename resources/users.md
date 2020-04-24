@@ -55,7 +55,7 @@ Returns an array of user objects.
 | isActive    | Flag indicating if the user's account is active or disabled. 1 = active, 0 = disabled  |
 | hireDate    | The user's hire date. |
 | hourlyRate    | The user's hourly billable rate  |
-| payType    | The user's pay type. S = salary, H = Hourly  |
+| payType    | The user's pay type. S = salary, H = hourly  |
 | hourlyPayRate    | The user's hourly pay rate. |
 | projectsAssigned    | The   |
 | country    | The user's country.  |
