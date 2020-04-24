@@ -44,7 +44,7 @@ Returns an array of user objects.
 | ---------- | ------------- |
 | userId   | Unique identifier for the user.  |
 | email       | The user's email.  |
-| approvesFor    | The . |
+| approvesFor    | Description of the people who the user approves time for. |
 | companyId       | The unique identier of the user's company.  |
 | isAdmin      | Flag indicating if the user is an admin. 1 = yes, 0 = no  |
 | firstName        | The user's first name.  |
@@ -57,7 +57,7 @@ Returns an array of user objects.
 | hourlyRate    | The user's hourly billable rate  |
 | payType    | The user's pay type. S = salary, H = hourly  |
 | hourlyPayRate    | The user's hourly pay rate. |
-| projectsAssigned    | The   |
+| projectsAssigned    | An array of the user's assigned projects. |
 | country    | The user's country.  |
 | phone    | The user's phone.  |
 | address    | The user's address.  |
