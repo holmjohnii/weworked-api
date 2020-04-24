@@ -1,24 +1,24 @@
 
 # Expenses
-The user resource allows you to retrieve individual users as well as a list of all the users on your account.
+The expense resource allows you to retrieve individual expenses as well as a list of all expenses on your account.
 
 ## Endpoints
-* [Retrieve a user](#retrieve-a-user)
-* [List all users](#list-all-users)
+* [Retrieve an expense](#retrieve-an-expense)
+* [List all expenses](#list-all-expenses)
 
-## Retrieve a user
-Retrieves the details of an existing user. Simply provide the unique user id.
+## Retrieve an expense
+Retrieves the details of an existing expense. Simply provide the unique expense id.
 
-`GET /v1/users/:id`
+`GET /v1/expenses/:id`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/users/501"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/expenses/4203"`
 
 ### Parameters
 No parameters
 
 ### Returns
-Returns a user object if a valid identifier was provided. 
+Returns an expense object if a valid identifier was provided. 
 
 -------------
 
