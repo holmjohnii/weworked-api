@@ -50,8 +50,8 @@ Returns an array of client objects.
 | zip        | The client's zipcode.  |
 | country    | The client's country.  |
 | isActive   | Flag indicating if the client is active or disabled. 1 = active, 0 = disabled  |
-| VATNumber  | The client's VAT number  |
-| contact    | The main client's point of contact  |
+| VATNumber  | The client's VAT number.  |
+| contact    | The main client's point of contact.  |
 
 -------------
 
