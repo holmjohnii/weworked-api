@@ -49,7 +49,7 @@ Returns an array of timesheet objects for a specific week.
 | totalHours    | The date of the expense. |
 | status       | The unique identifer of the project associated with the expense.  |
 | days      | An array of timesheet day objects.  |
-| comments        | The unique identifer of the category associated with the expense.  |
+| comments        | An array of the timesheet's weekly comments.  |
 
 ### The timesheet day object attributes:
 
@@ -59,7 +59,7 @@ Returns an array of timesheet objects for a specific week.
 | totalHours       | Unique identifier of the owner of the expense.  |
 | status       | The unique identifer of the project associated with the expense.  |
 | tasks      | An array of timesheet task objects.  |
-| clockInOut        | The unique identifer of the category associated with the expense.  |
+| clockInOut        | An array of clock objects.  |
 
 ## The timesheet task object attribues:
 | Attribute  | Description   |
@@ -73,6 +73,21 @@ Returns an array of timesheet objects for a specific week.
 | hours    | The notes associated with the expense. |
 | comment    | The notes associated with the expense. |
 | isApproved    | The notes associated with the expense. |
+
+## The timesheet clock object attribues:
+| Attribute  | Description   |
+| ---------- | ------------- |
+| clockInOutId    | The name of the expense category associated with the expenese.  |
+| specificDate   | The URL of receipt image.  |
+| projectName  | The amount of the expense.  |
+| longDesc    | The unique identifier of the status of the expense. |
+| shortDesc    | The name of the status of the expense. |
+| projectTaskId    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
+| clockIn    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
+| clockOut    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
+| clockInFormatted    | The notes associated with the expense. |
+| clockOutFormatted    | The notes associated with the expense. |
+| sumHours    | The notes associated with the expense. |
 
 -------------
 
