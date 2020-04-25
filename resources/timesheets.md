@@ -40,23 +40,29 @@ Returns an array of timesheet objects for a specific week.
 
 -------------
 
-### The expense object attributes:
+### The timesheet object attributes:
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| expensesId   | Unique identifier for an expense.  |
-| userId       | Unique identifier of the owner of the expense.  |
-| expenseDate    | The date of the expense. |
-| projectId       | The unique identifer of the project associated with the expense.  |
-| projectName      | The name of the project associated with the expense.  |
-| expenseCategoryId        | The unique identifer of the category associated with the expense.  |
-| expenseCategoryName    | The name of the expense category associated with the expenese.  |
-| receiptURL   | The URL of receipt image.  |
-| amount  | The amount of the expense.  |
-| isBillable    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
-| statusId    | The unique identifier of the status of the expense. |
-| statusName    | The name of the status of the expense. |
-| notes    | The notes associated with the expense. |
+| startDate   | Unique identifier for an expense.  |
+| endDate       | Unique identifier of the owner of the expense.  |
+| totalHours    | The date of the expense. |
+| status       | The unique identifer of the project associated with the expense.  |
+| days      | The name of the project associated with the expense.  |
+| comments        | The unique identifer of the category associated with the expense.  |
+
+## The timesheet task object attribues:
+| Attribute  | Description   |
+| ---------- | ------------- |
+| hrsWorkedId    | The name of the expense category associated with the expenese.  |
+| specificDate   | The URL of receipt image.  |
+| projectName  | The amount of the expense.  |
+| projectTaskId    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
+| longDesc    | The unique identifier of the status of the expense. |
+| shortDesc    | The name of the status of the expense. |
+| hours    | The notes associated with the expense. |
+| comment    | The notes associated with the expense. |
+| isApproved    | The notes associated with the expense. |
 
 -------------
 
