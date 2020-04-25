@@ -44,10 +44,10 @@ Returns an array of timesheet objects for a specific week.
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| startDate   | Unique identifier for an expense.  |
-| endDate       | Unique identifier of the owner of the expense.  |
-| totalHours    | The date of the expense. |
-| status       | The unique identifer of the project associated with the expense.  |
+| startDate   | The first day of the timesheet's week.  |
+| endDate       | The last day of the timesheet's week.  |
+| totalHours    | The total hours entered for the week on the timesheet. |
+| status       | The overall status of the week's timesheet. |
 | days      | An array of timesheet day objects.  |
 | comments        | An array of the timesheet's weekly comments.  |
 
@@ -55,11 +55,11 @@ Returns an array of timesheet objects for a specific week.
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| specificDate   | Unique identifier for an expense.  |
-| totalHours       | Unique identifier of the owner of the expense.  |
-| status       | The unique identifer of the project associated with the expense.  |
-| tasks      | An array of timesheet task objects.  |
-| clockInOut        | An array of clock objects.  |
+| specificDate   | The date of a particular day on the timesheet.  |
+| totalHours       | The total hours for a particular day on the timesheet.  |
+| status       | The status of a particular day on the timesheet.  |
+| tasks      | An array of timesheet task objects associated to a particular day on the timesheet.  |
+| clockInOut        | An array of clock objects associated to a particular day on the timesheet.  |
 
 ## The timesheet task object attribues:
 | Attribute  | Description   |
