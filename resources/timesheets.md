@@ -15,8 +15,8 @@ Retrieves the details of a daily timesheet.
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets"`
 
 ### Parameters
-* userid - 
-* timeperiod - 
+* userid - The unique identifier for the user.
+* timeperiod - The timeperiod you 
 * date - 
 
 ### Returns
