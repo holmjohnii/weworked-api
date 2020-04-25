@@ -12,7 +12,7 @@ Retrieves the details of a daily timesheet.
 `GET /v1/timesheets/daily`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets/daily"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets/daily?userid=501&date=04/05/2020"`
 
 ### Parameters
 * userid - The unique identifier for the user.
@@ -29,7 +29,7 @@ Returns a list of your expenses in alphabetical order.
 `GET /v1/timesheets/weekly`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/expenses"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/weekly?userid=501&date=04/03/2020"`
 
 ### Parameters
 * userid - The unique identifier for the user.
