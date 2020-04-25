@@ -9,15 +9,14 @@ The timesheet resource allows you to retrieve a daily timesheet and a weekly tim
 ## Retrieve a daily timesheet
 Retrieves the details of a daily timesheet. 
 
-`GET /v1/timesheets`
+`GET /v1/timesheets/daily`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets/daily"`
 
 ### Parameters
 * userid - The unique identifier for the user.
-* timeperiod - The timeperiod you 
-* date - 
+* date - The date of the timesheet to return.
 
 ### Returns
 Returns a week of timesheet objects.
@@ -27,13 +26,14 @@ Returns a week of timesheet objects.
 ## Retrieve a weekly timesheet
 Returns a list of your expenses in alphabetical order.
 
-`GET /v1/expenses`
+`GET /v1/timesheets/weekly`
 
 ##### cURL Example
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/expenses"`
 
 ### Parameters
-* status - A filter on the list based on the name of the expense's status. Expense statuses are all, pending, approved, and invoiced.
+* userid - The unique identifier for the user.
+* date - The date of the timesheet to return.
 
 ### Returns
 Returns an array of expense objects.
