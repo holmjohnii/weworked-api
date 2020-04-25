@@ -19,7 +19,7 @@ Retrieves the details of a daily timesheet.
 * date - The date of the timesheet to return.
 
 ### Returns
-Returns a week of timesheet objects.
+Returns a timesheet object for a specific day.
 
 -------------
 
@@ -36,7 +36,7 @@ Returns a list of your expenses in alphabetical order.
 * date - The date of the timesheet to return.
 
 ### Returns
-Returns an array of expense objects.
+Returns an array of timesheet objects for a specific week.
 
 -------------
 
