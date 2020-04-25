@@ -7,7 +7,7 @@ The timesheet resource allows you to retrieve a daily timesheet and a weekly tim
 * [Retrieve a weekly timesheet](#retrieve-a-weekly-timesheet)
 
 ## Retrieve a daily timesheet
-Retrieves the details of a daily timesheet. 
+Retrieves a single days timesheet. 
 
 `GET /v1/timesheets/daily`
 
@@ -24,7 +24,7 @@ Returns a timesheet object for a specific day.
 -------------
 
 ## Retrieve a weekly timesheet
-Returns a list of your expenses in alphabetical order.
+Returns a full week (7 days) of timesheet data.
 
 `GET /v1/timesheets/weekly`
 
