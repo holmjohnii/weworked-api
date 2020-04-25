@@ -40,7 +40,7 @@ Returns an array of timesheet objects for a specific week.
 
 -------------
 
-### The timesheet object attributes:
+### The timesheet week object attributes:
 
 | Attribute  | Description   |
 | ---------- | ------------- |
@@ -48,8 +48,18 @@ Returns an array of timesheet objects for a specific week.
 | endDate       | Unique identifier of the owner of the expense.  |
 | totalHours    | The date of the expense. |
 | status       | The unique identifer of the project associated with the expense.  |
-| days      | The name of the project associated with the expense.  |
+| days      | An array of timesheet day objects.  |
 | comments        | The unique identifer of the category associated with the expense.  |
+
+### The timesheet day object attributes:
+
+| Attribute  | Description   |
+| ---------- | ------------- |
+| specificDate   | Unique identifier for an expense.  |
+| totalHours       | Unique identifier of the owner of the expense.  |
+| status       | The unique identifer of the project associated with the expense.  |
+| tasks      | An array of timesheet task objects.  |
+| clockInOut        | The unique identifer of the category associated with the expense.  |
 
 ## The timesheet task object attribues:
 | Attribute  | Description   |
