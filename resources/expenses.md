@@ -38,7 +38,7 @@ Returns an array of expense objects.
 
 -------------
 
-### The user object attributes:
+### The expense object attributes:
 
 | Attribute  | Description   |
 | ---------- | ------------- |
