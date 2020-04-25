@@ -1,24 +1,26 @@
 
 # Timesheets
-The expense resource allows you to retrieve individual expenses as well as a list of all expenses on your account.
+The timesheet resource allows you to retrieve a daily timesheet and a weekly timesheet for a user on your account.
 
 ## Endpoints
 * [Retrieve a daily timesheet](#retrieve-a-daily-timesheet)
 * [Retrieve a weekly timesheet](#retrieve-a-weekly-timesheet)
 
 ## Retrieve a daily timesheet
-Retrieves the details of an existing expense. Simply provide the unique expense id.
+Retrieves the details of a daily timesheet. 
 
-`GET /v1/expenses/:id`
+`GET /v1/timesheets`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/expenses/4203"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets"`
 
 ### Parameters
-No parameters
+* userid - 
+* timeperiod - 
+* date - 
 
 ### Returns
-Returns an expense object if a valid identifier was provided. 
+Returns a week of timesheet objects.
 
 -------------
 
