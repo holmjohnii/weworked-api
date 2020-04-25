@@ -42,28 +42,19 @@ Returns an array of expense objects.
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| userId   | Unique identifier for the user.  |
-| email       | The user's email.  |
-| approvesFor    | Description of the people who the user approves time for. Everyone, Nobody, Group, or People. |
-| companyId       | The unique identier of the user's company.  |
-| isAdmin      | Flag indicating if the user is an admin. 1 = yes, 0 = no  |
-| firstName        | The user's first name.  |
-| lastName    | The users's last name.  |
-| title   | The user's title.  |
-| internalId  | The user's custom id.  |
-| trackLeave    | Flag indicating if leave is tracked for the user. 1 = yes, 0 = no |
-| isActive    | Flag indicating if the user's account is active or disabled. 1 = active, 0 = disabled  |
-| hireDate    | The user's hire date. |
-| hourlyRate    | The user's hourly billable rate  |
-| payType    | The user's pay type. S = salary, H = hourly  |
-| hourlyPayRate    | The user's hourly pay rate. |
-| projectsAssigned    | An array of the user's assigned projects. |
-| country    | The user's country.  |
-| phone    | The user's phone.  |
-| address    | The user's address.  |
-| city    | The user's city.  |
-| state    | The user's state.  |
-| zip    | The user's zip.  |
+| expensesId   | Unique identifier for an expense.  |
+| userId       | Unique identifier of the owner of the expense.  |
+| expenseDate    | The date of the expense. |
+| projectId       | The unique identifer of the project associated with the expense.  |
+| projectName      | The name of the project associated with the expense.  |
+| expenseCategoryId        | The unique identifer of the category associated with the expense.  |
+| expenseCategoryName    | The name of the expense category associated with the expenese.  |
+| receiptURL   | The URL of receipt image.  |
+| amount  | The amount of the expense.  |
+| isBillable    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
+| statusId    | The unique identifier of the status of the expense. |
+| statusName    | The name of the status of the expense. |
+| notes    | The notes associated with the expense. |
 
 -------------
 
