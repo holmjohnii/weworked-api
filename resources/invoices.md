@@ -42,38 +42,40 @@ Returns an array of invoice objects.
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| clientId   | Unique identifier for the client associated with the project.  |
-| clientName       | The name of the client associated with the project.  |
-| projectId    | The unique identifier of the project. |
-| projectName       | The name of the project.  |
-| projectCode      | The project code.  |
-| overview        | The overview description of the project.  |
-| createdBy    | The time stamp when the project was created.  |
-| isBillable   | Flag indicating if the project is billable. 1 = billable, 0 = non-billable  |
-| budgetedCost  | The budgeted cost for the project.  |
-| budgetedHours    | The budgeted hours for the project. |
-| invoiceMethod    | The invoice method unique identifier set for the project.  |
-| invoiceMethodName    | The name of the invoice method set for the project.  |
-| projectRate    | The project's billable rate.  |
-| isSystemProject    | Flag indicating if the project is used to track leave. 1 = yes, 0 = no  |
-| peopleAssigned    | An array of the users assigned to the project.  |
-| tasks    | An array of task objects associated to the project.  |
+| invoiceId   | Unique identifier for the client associated with the project.  |
+| companyId       | The name of the client associated with the project.  |
+| invoiceDate    | The unique identifier of the project. |
+| invoiceNum       | The name of the project.  |
+| dueDate      | The project code.  |
+| billTo        | The overview description of the project.  |
+| clientId    | The time stamp when the project was created.  |
+| paymentTerms   | Flag indicating if the project is billable. 1 = billable, 0 = non-billable  |
+| currencySymbol  | The budgeted cost for the project.  |
+| tax    | The budgeted hours for the project. |
+| discount    | The invoice method unique identifier set for the project.  |
+| isActive    | The name of the invoice method set for the project.  |
+| isPaid    | The project's billable rate.  |
+| notes    | Flag indicating if the project is used to track leave. 1 = yes, 0 = no  |
+| subject    | An array of the users assigned to the project.  |
+| attn    | An array of task objects associated to the project.  |
+| createdBy    | An array of task objects associated to the project.  |
+| createdOn    | An array of task objects associated to the project.  |
+| lineItems    | An array of task objects associated to the project.  |
+| subTotal    | An array of task objects associated to the project.  |
+| taxAmount    | An array of task objects associated to the project.  |
+| discountAmount    | An array of task objects associated to the project.  |
+| amountDue    | An array of task objects associated to the project.  |
 
-### The task object attributes:
+### The invoice line item object attributes:
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| projectTaskId   | Unique identifier of the task.  |
-| projectId       | Unique identifier of the project associated with the task.  |
-| shortDesc    | The task code description. |
-| longDesc       | The name of the task.  |
-| isBillable      | Flag indicating if the task is billable. 1 = billable, 0 = non-billable  |
-| taskRate      | The hourly rate of the task.  |
-| isActive      | Flag indicating if the task is active. 1 = active, 0 = disabled  |
-| companyId      | The unique identifier of the company.  |
-| isLeaveField      | Flag indicating if the task is used to track leave. |
-| budgetedCost      | The budgeted cost of the task. |
-| budgetedHours      | The budgeted hours for the task.  |
+| invoiceLineItemId   | Unique identifier of the task.  |
+| invoiceId       | Unique identifier of the project associated with the task.  |
+| quantity    | The task code description. |
+| description       | The name of the task.  |
+| unitPrice      | Flag indicating if the task is billable. 1 = billable, 0 = non-billable  |
+| total      | The hourly rate of the task.  |
 | createdBy      | The unique identifier of the user that created the task.  |
 | createdOn      | The time stamp of when the task was created.  |
 
