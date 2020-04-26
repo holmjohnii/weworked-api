@@ -70,7 +70,7 @@ Returns an array of timesheet objects for a specific week.
 | projectTaskId    | The unique identifier of the task associated with the timesheet entry. |
 | longDesc    | The name of the task associated with the timesheet entry. |
 | shortDesc    | The name of the task code associated with the timesheet entry. |
-| hours    | the hours associated with the timesheet entry. |
+| hours    | The hours associated with the timesheet entry. |
 | comment    | The comment associated with the timesheet entry. |
 | isApproved    | Flag indicating if the timesheet entry was approved. 1 = approved, 0 = not approved |
 
