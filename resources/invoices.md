@@ -60,17 +60,17 @@ Returns an array of invoice objects.
 | attn    | The attention description of the invoice. |
 | createdBy    | The unique identifier of the user that created the invoice.  |
 | createdOn    | The time stamp of when the invoice was created. |
-| lineItems    | An array of task objects associated to the project.  |
-| subTotal    | An array of task objects associated to the project.  |
-| taxAmount    | An array of task objects associated to the project.  |
-| discountAmount    | An array of task objects associated to the project.  |
-| amountDue    | An array of task objects associated to the project.  |
+| lineItems    | An array of invoice line item objects associated with the invoice.  |
+| subTotal    | The subtotal of the invoice. |
+| taxAmount    | The tax amount of the invoice.  |
+| discountAmount    | The discount amount of the invoice.  |
+| amountDue    | The total amount due for the invoice.  |
 
 ### The invoice line item object attributes:
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| invoiceLineItemId   | Unique identifier of the task.  |
+| invoiceLineItemId   | Unique identifier of the invoice's line item.  |
 | invoiceId       | Unique identifier of the project associated with the task.  |
 | quantity    | The task code description. |
 | description       | The name of the task.  |
