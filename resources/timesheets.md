@@ -68,10 +68,10 @@ Returns an array of timesheet objects for a specific week.
 | specificDate   | The date associated with the timesheet entry.  |
 | projectName  | The name of the project associated with the timesheet entry.  |
 | projectTaskId    | The unique identifier of the task associated with the timesheet entry. |
-| longDesc    | The unique identifier of the status of the expense. |
-| shortDesc    | The name of the status of the expense. |
-| hours    | The notes associated with the expense. |
-| comment    | The notes associated with the expense. |
+| longDesc    | The name of the task associated with the timesheet entry. |
+| shortDesc    | The name of the task code associated with the timesheet entry. |
+| hours    | the hours associated with the timesheet entry. |
+| comment    | The comment associated with the timesheet entry. |
 | isApproved    | The notes associated with the expense. |
 
 ## The timesheet clock object attribues:
