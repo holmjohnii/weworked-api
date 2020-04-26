@@ -1,6 +1,6 @@
 
 # Invoices
-The project resource allows you to retrieve individual projects as well as a list of all your projects.
+The invoice resource allows you to retrieve individual invoices as well as a list of all your invoices.
 
 ## Endpoints
 * [Retrieve an invoice](#retrieve-an-invoice)
