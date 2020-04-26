@@ -1,6 +1,6 @@
 
 # Reports
-The reports resource allows you to retrieve  reports.
+The reports resource allows you to retrieve select reports.
 
 ## Endpoints
 * [Retrieve summary by person and task report](#retrieve-summary-by-person-and-task-report)
@@ -15,13 +15,13 @@ Retrieves a report
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/reports/summary?fromdate=501&todate=501&projects=04/05/2020&showzeros=501&taskstatus=501&timestatus=501&users=501"`
 
 ### Parameters
-* `fromdate` - The unique identifier for the user.
-* `todate` - The date of the timesheet to return.
-* `projects` - The date of the timesheet to return.
-* `showzeros` - The date of the timesheet to return.
-* `taskstatus` - The date of the timesheet to return.
-* `timestatus` - The date of the timesheet to return.
-* `users` - The date of the timesheet to return.
+* `fromdate` - The date of the start of the reporting period.
+* `todate` - The date of the end of the reporting period.
+* `projects` - The projects to include in the report. 
+* `showzeros` - Flag indicating if results with zero hours should be returned. 1 = yes, 0 = no
+* `taskstatus` - The status of tasks to include in the report. 
+* `timestatus` - The status of the time entries to include in the report.
+* `users` - The unique identifiers of the users to include in the report.
 
 ### Returns
 Returns a timesheet object for a specific day.
