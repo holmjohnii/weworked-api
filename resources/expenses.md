@@ -31,7 +31,7 @@ Returns a list of your expenses in alphabetical order.
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/expenses"`
 
 ### Parameters
-* status - A filter on the list based on the name of the expense's status. Expense statuses are all, pending, approved, and invoiced.
+* `status` - A filter on the list based on the name of the expense's status. Expense statuses are all, pending, approved, and invoiced.
 
 ### Returns
 Returns an array of expense objects.
