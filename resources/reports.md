@@ -3,15 +3,16 @@
 The reports resource allows you to retrieve  reports.
 
 ## Endpoints
-* [Retrieve a report](#retrieve-a-report)
+* [Retrieve summary by person and task report](#retrieve-summary-by-person-and-task-report)
+* [Retrieve detailed line items with comments report](#retrieve-detailed-line-items-with-comments-report)
 
-## Retrieve a report
+## Retrieve summary by person and task report
 Retrieves a report
 
-`GET /v1/timesheets/reports/:reportname`
+`GET /v1/timesheets/reports/summary`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets/daily?userid=501&date=04/05/2020"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/reports/summary?fromdate=501&todate=501&projects=04/05/2020&showzeros=501&taskstatus=501&timestatus=501&users=501"`
 
 ### Parameters
 * `fromdate` - The unique identifier for the user.
