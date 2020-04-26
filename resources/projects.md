@@ -43,15 +43,21 @@ Returns an array of client objects.
 | Attribute  | Description   |
 | ---------- | ------------- |
 | clientId   | Unique identifier for the client.  |
-| name       | The client's name.  |
-| address    | The client's street address. |
-| city       | The client's city.  |
-| state      | The client's state.  |
-| zip        | The client's zipcode.  |
-| country    | The client's country.  |
-| isActive   | Flag indicating if the client is active or disabled. 1 = active, 0 = disabled  |
-| VATNumber  | The client's VAT number.  |
-| contact    | The main client's point of contact.  |
+| clientName       | The client's name.  |
+| projectId    | The client's street address. |
+| projectName       | The client's city.  |
+| projectCode      | The client's state.  |
+| overview        | The client's zipcode.  |
+| createdBy    | The client's country.  |
+| isBillable   | Flag indicating if the client is active or disabled. 1 = active, 0 = disabled  |
+| budgetedCost  | The client's VAT number.  |
+| budgetedHours    | The main client's point of contact.  |
+| invoiceMethod    | The main client's point of contact.  |
+| invoiceMethodName    | The main client's point of contact.  |
+| projectRate    | The main client's point of contact.  |
+| isSystemProject    | The main client's point of contact.  |
+| peopleAssigned    | The main client's point of contact.  |
+| tasks    | The main client's point of contact.  |
 
 -------------
 
