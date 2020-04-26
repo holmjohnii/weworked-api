@@ -4,7 +4,7 @@ The project resource allows you to retrieve individual projects as well as a lis
 
 ## Endpoints
 * [Retrieve a project](#retrieve-a-project)
-* [List all projects](#list-all-projecxts)
+* [List all projects](#list-all-projects)
 
 ## Retrieve a project
 Retrieves the details of an existing project. Simply provide the unique project id.
@@ -63,19 +63,19 @@ Returns an array of client objects.
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| projectTaskId   | Unique identifier for the client associated with the project.  |
-| projectId       | The name of the client associated with the project.  |
-| shortDesc    | The unique identifier of the project. |
-| longDesc       | The name of the project.  |
-| isBillable      | The project code.  |
-| taskRate      | The project code.  |
-| isActive      | The project code.  |
-| companyId      | The project code.  |
-| isLeaveField      | The project code.  |
-| budgetedCost      | The project code.  |
-| budgetedHours      | The project code.  |
-| createdBy      | The project code.  |
-| createdOn      | The project code.  |
+| projectTaskId   | Unique identifier of the task.  |
+| projectId       | Unique identifier of the project associated with the task.  |
+| shortDesc    | The task code description. |
+| longDesc       | The name of the task.  |
+| isBillable      | Flag indicating if the task is billable. 1 = billable, 0 = non-billable  |
+| taskRate      | The hourly rate of the task.  |
+| isActive      | Flag indicating if the task is active. 1 = active, 0 = disabled  |
+| companyId      | The unique identifier of the company.  |
+| isLeaveField      | Flag indicating if the task is used to track leave. |
+| budgetedCost      | The budgeted cost of the task. |
+| budgetedHours      | The budgeted hours for the task.  |
+| createdBy      | The unique identifier of the user that created the task.  |
+| createdOn      | The time stamp of when the task was created.  |
 
 -------------
 
