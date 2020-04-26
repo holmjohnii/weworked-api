@@ -42,22 +42,22 @@ Returns an array of client objects.
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| clientId   | Unique identifier for the client.  |
-| clientName       | The client's name.  |
-| projectId    | The client's street address. |
-| projectName       | The client's city.  |
-| projectCode      | The client's state.  |
-| overview        | The client's zipcode.  |
-| createdBy    | The client's country.  |
-| isBillable   | Flag indicating if the client is active or disabled. 1 = active, 0 = disabled  |
-| budgetedCost  | The client's VAT number.  |
-| budgetedHours    | The main client's point of contact.  |
-| invoiceMethod    | The main client's point of contact.  |
-| invoiceMethodName    | The main client's point of contact.  |
-| projectRate    | The main client's point of contact.  |
-| isSystemProject    | The main client's point of contact.  |
-| peopleAssigned    | The main client's point of contact.  |
-| tasks    | The main client's point of contact.  |
+| clientId   | Unique identifier for the client associated with the project.  |
+| clientName       | The name of the client associated with the project.  |
+| projectId    | The unique identifier of the project. |
+| projectName       | The name of the project.  |
+| projectCode      | The project code.  |
+| overview        | The overview description of the project.  |
+| createdBy    | The time stamp when the project was created.  |
+| isBillable   | Flag indicating if the project is billable. 1 = billable, 0 = non-billable  |
+| budgetedCost  | The budgeted cost for the project.  |
+| budgetedHours    | The budgeted hours for the project. |
+| invoiceMethod    | The invoice method unique identifier set for the project.  |
+| invoiceMethodName    | The name of the invoice method set for the project.  |
+| projectRate    | The project's billable rate.  |
+| isSystemProject    | Flag indicating if the project is used to track leave. 1 = yes, 0 = no  |
+| peopleAssigned    | An array of the users assigned to the project.  |
+| tasks    | An array of task objects associated to the project.  |
 
 -------------
 
