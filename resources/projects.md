@@ -59,6 +59,24 @@ Returns an array of client objects.
 | peopleAssigned    | An array of the users assigned to the project.  |
 | tasks    | An array of task objects associated to the project.  |
 
+### The task object attributes:
+
+| Attribute  | Description   |
+| ---------- | ------------- |
+| projectTaskId   | Unique identifier for the client associated with the project.  |
+| projectId       | The name of the client associated with the project.  |
+| shortDesc    | The unique identifier of the project. |
+| longDesc       | The name of the project.  |
+| isBillable      | The project code.  |
+| taskRate      | The project code.  |
+| isActive      | The project code.  |
+| companyId      | The project code.  |
+| isLeaveField      | The project code.  |
+| budgetedCost      | The project code.  |
+| budgetedHours      | The project code.  |
+| createdBy      | The project code.  |
+| createdOn      | The project code.  |
+
 -------------
 
 ##### Example JSON Response
