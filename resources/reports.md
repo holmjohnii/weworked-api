@@ -1,22 +1,26 @@
 
 # Reports
-The timesheet resource allows you to retrieve a daily timesheet and a weekly timesheet for a user on your account.
+The reports resource allows you to retrieve  reports.
 
 ## Endpoints
-* [Retrieve a daily timesheet](#retrieve-a-daily-timesheet)
-* [Retrieve a weekly timesheet](#retrieve-a-weekly-timesheet)
+* [Retrieve a report](#retrieve-a-report)
 
-## Retrieve a daily timesheet
-Retrieves a single days timesheet. 
+## Retrieve a report
+Retrieves a report
 
-`GET /v1/timesheets/daily`
+`GET /v1/timesheets/reports/:reportname`
 
 ##### cURL Example
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets/daily?userid=501&date=04/05/2020"`
 
 ### Parameters
-* `userid` - The unique identifier for the user.
-* `date` - The date of the timesheet to return.
+* `fromdate` - The unique identifier for the user.
+* `todate` - The date of the timesheet to return.
+* `projects` - The date of the timesheet to return.
+* `showzeros` - The date of the timesheet to return.
+* `taskstatus` - The date of the timesheet to return.
+* `timestatus` - The date of the timesheet to return.
+* `users` - The date of the timesheet to return.
 
 ### Returns
 Returns a timesheet object for a specific day.
