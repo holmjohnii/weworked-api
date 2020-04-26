@@ -77,17 +77,17 @@ Returns an array of timesheet objects for a specific week.
 ## The timesheet clock object attribues:
 | Attribute  | Description   |
 | ---------- | ------------- |
-| clockInOutId    | The name of the expense category associated with the expenese.  |
-| specificDate   | The URL of receipt image.  |
-| projectName  | The amount of the expense.  |
-| longDesc    | The unique identifier of the status of the expense. |
-| shortDesc    | The name of the status of the expense. |
-| projectTaskId    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
-| clockIn    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
-| clockOut    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
-| clockInFormatted    | The notes associated with the expense. |
-| clockOutFormatted    | The notes associated with the expense. |
-| sumHours    | The notes associated with the expense. |
+| clockInOutId    | The unique identifier of the clock in and out activity. |
+| specificDate   | The date of a particular day on the timesheet. |
+| projectName  | The name of the project associated with the clock's activity. |
+| longDesc    | The name of the task associated with the clock's activity. |
+| shortDesc    | The name of the task code associated with the clock's activity. |
+| projectTaskId    | The unique identifier of the task associated with the clock's activity. |
+| clockIn    | The clock in time stamp for the clock's activity. |
+| clockOut    | The clock out time stamp for the clock's activity. |
+| clockInFormatted    | The clock in time stamp for the clock's activity formatted based on the user's preference. |
+| clockOutFormatted    | The clock out time stamp for the clock's activity formatted based on the user's preference. |
+| sumHours    | The total hours for the clock in and out period. |
 
 -------------
 
