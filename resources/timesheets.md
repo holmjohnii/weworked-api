@@ -61,7 +61,7 @@ Returns an array of timesheet objects for a specific week.
 | tasks      | An array of timesheet task objects associated to a particular day on the timesheet.  |
 | clockInOut        | An array of clock objects associated to a particular day on the timesheet.  |
 
-## The timesheet task object attribues:
+## The timesheet task object attributes:
 | Attribute  | Description   |
 | ---------- | ------------- |
 | hrsWorkedId    | The unique identifier of the timesheet entry.  |
@@ -74,7 +74,7 @@ Returns an array of timesheet objects for a specific week.
 | comment    | The comment associated with the timesheet entry. |
 | isApproved    | Flag indicating if the timesheet entry was approved. 1 = approved, 0 = not approved |
 
-## The timesheet clock object attribues:
+## The timesheet clock object attributes:
 | Attribute  | Description   |
 | ---------- | ------------- |
 | clockInOutId    | The unique identifier of the clock in and out activity. |
