@@ -9,7 +9,7 @@ The invoice resource allows you to retrieve individual invoices as well as a lis
 ## Retrieve an invoice
 Retrieves the details of an existing project. Simply provide the unique project id.
 
-`GET /v1/projects/:id`
+`GET /v1/invoices/:id`
 
 ##### cURL Example
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/invoices/9802"`
@@ -25,7 +25,7 @@ Returns an invoice object if a valid identifier was provided.
 ## List all invoices
 Returns a list of your invoices in order by the invoice date.
 
-`GET /v1/projects`
+`GET /v1/invoices`
 
 ##### cURL Example
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/invoices"`
