@@ -64,10 +64,10 @@ Returns an array of timesheet objects for a specific week.
 ## The timesheet task object attribues:
 | Attribute  | Description   |
 | ---------- | ------------- |
-| hrsWorkedId    | The name of the expense category associated with the expenese.  |
-| specificDate   | The URL of receipt image.  |
-| projectName  | The amount of the expense.  |
-| projectTaskId    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
+| hrsWorkedId    | The unique identifier of the timesheet entry.  |
+| specificDate   | The date associated with the timesheet entry.  |
+| projectName  | The name of the project associated with the timesheet entry.  |
+| projectTaskId    | The unique identifier of the task associated with the timesheet entry. |
 | longDesc    | The unique identifier of the status of the expense. |
 | shortDesc    | The name of the status of the expense. |
 | hours    | The notes associated with the expense. |
