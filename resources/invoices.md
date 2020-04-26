@@ -42,24 +42,24 @@ Returns an array of invoice objects.
 
 | Attribute  | Description   |
 | ---------- | ------------- |
-| invoiceId   | Unique identifier for the client associated with the project.  |
-| companyId       | The name of the client associated with the project.  |
-| invoiceDate    | The unique identifier of the project. |
-| invoiceNum       | The name of the project.  |
-| dueDate      | The project code.  |
-| billTo        | The overview description of the project.  |
-| clientId    | The time stamp when the project was created.  |
-| paymentTerms   | Flag indicating if the project is billable. 1 = billable, 0 = non-billable  |
-| currencySymbol  | The budgeted cost for the project.  |
-| tax    | The budgeted hours for the project. |
-| discount    | The invoice method unique identifier set for the project.  |
-| isActive    | The name of the invoice method set for the project.  |
-| isPaid    | The project's billable rate.  |
-| notes    | Flag indicating if the project is used to track leave. 1 = yes, 0 = no  |
-| subject    | An array of the users assigned to the project.  |
-| attn    | An array of task objects associated to the project.  |
-| createdBy    | An array of task objects associated to the project.  |
-| createdOn    | An array of task objects associated to the project.  |
+| invoiceId   | Unique identifier of the invoice.  |
+| companyId       | The unique identifier of the company.  |
+| invoiceDate    | The date of the invoice. |
+| invoiceNum       | The unique manual invoice number.  |
+| dueDate      | The due date of the invoice.  |
+| billTo        | The description of the bill to.  |
+| clientId    | The unique identifier of the client assoicated with the invoice. |
+| paymentTerms   | The payment terms of the invoice.  |
+| currencySymbol  | The currency setting for the invoice.  |
+| tax    | The tax percentage for the invoice. |
+| discount    | The discount percentage for the invoice.  |
+| isActive    | Flag indicating if the invoice is active. 1 = active, 0 = disabled  |
+| isPaid    | Flag indicating if the invoice was paid. 1 = paid, 0 = not paid   |
+| notes    | The notes for the invoice. |
+| subject    | The subject of the invoice. |
+| attn    | The attention description of the invoice. |
+| createdBy    | The unique identifier of the user that created the invoice.  |
+| createdOn    | The time stamp of when the invoice was created. |
 | lineItems    | An array of task objects associated to the project.  |
 | subTotal    | An array of task objects associated to the project.  |
 | taxAmount    | An array of task objects associated to the project.  |
