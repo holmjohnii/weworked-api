@@ -1,6 +1,6 @@
 
 # Reports
-The reports resource allows you to retrieve select reports.
+The reports resource allows you to retrieve specific reports.
 
 ## Endpoints
 * [Retrieve summary by person and task report](#retrieve-summary-by-person-and-task-report)
@@ -17,10 +17,10 @@ Retrieves a report
 ### Parameters
 * `fromdate` - The date of the start of the reporting period.
 * `todate` - The date of the end of the reporting period.
-* `projects` - The projects to include in the report. 
+* `projects` - The projects to include in the report. Options: all, allactive, alldisabled, project id, or comma-delimited list of project ids.
 * `showzeros` - Flag indicating if results with zero hours should be returned. 1 = yes, 0 = no
-* `taskstatus` - The status of tasks to include in the report. 
-* `timestatus` - The status of the time entries to include in the report.
+* `taskstatus` - The status of tasks to include in the report. Options: all, billable, or nonbillable.
+* `timestatus` - The status of the time entries to include in the report. Options: all, approved, or notapproved. 
 * `users` - The unique identifiers of the users to include in the report.
 
 ### Returns
