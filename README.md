@@ -3,7 +3,7 @@ Welcome to API reference for WeWorked! The current version of the API is **`v1`*
 
 The WeWorked API is organized around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). The API provides read-only predictable resource-structured URLs that return [JSON-encoded](https://www.json.org/json-en.html) responses with standard HTTP response codes, authentication, and verbs.
 
-The WeWorked API is **read-only** for now, meaning you can only pull data. Changing data in WeWorked may become available in the future.
+The WeWorked API is **read-only** for now, meaning you can only GET data. Changing data in WeWorked may become available in the future.
 
 ## Authentication
 The WeWorked API uses API keys to authenticate requests. Every request must include the API key assigned to your company's account. API Keys grant access at the company level. User-level API calls are not permitted. Do not share your API key. Keep it in a secure location. Do not place in publicly available areas such as GitHub or in client-side code. 
