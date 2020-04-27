@@ -28,7 +28,7 @@ Returns a summary of timesheet data by person and task.
 
 -------------
 
-## Retrieve a weekly timesheet
+## Retrieve detailed line items with comments report
 Returns the detailed line item with comments report.
 
 `GET /v1/reports/detailed`
