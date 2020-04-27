@@ -7,7 +7,7 @@ The reports resource allows you to retrieve specific reports.
 * [Retrieve detailed line items with comments report](#retrieve-detailed-line-items-with-comments-report)
 
 ## Retrieve summary by person and task report
-Retrieves a report
+Retrieves the summary by person and task report.
 
 `GET /v1/timesheets/reports/summary`
 
@@ -24,7 +24,7 @@ Retrieves a report
 * `users` - The unique identifiers of the users to include in the report. A single user id or a comma-delimited list of user ids.
 
 ### Returns
-Returns a timesheet object for a specific day.
+Returns a 
 
 -------------
 
