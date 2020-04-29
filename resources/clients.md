@@ -44,7 +44,8 @@ Returns an array of client objects.
 | ---------- | ------------- |
 | clientId   | Unique identifier for the client.  |
 | name       | The client's name.  |
-| address    | The client's street address. |
+| address    | The client's address line 1. |
+| address2    | The client's address line 2. |
 | city       | The client's city.  |
 | state      | The client's state.  |
 | zip        | The client's zipcode.  |
