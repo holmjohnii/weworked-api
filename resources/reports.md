@@ -15,7 +15,7 @@ Retrieves the summary by person and task report.
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/reports/summary?fromdate=2020-01-01&todate=2020-01-31&projects=all&showzeros=1&taskstatus=all&timestatus=all&users=all"`
 
 ### Parameters
-* `fromdate` - The date of the start of the reporting period. Format is yyyy-mm-dd.
+* `fromdate` - **required** The date of the start of the reporting period. Format is yyyy-mm-dd.
 * `todate` - The date of the end of the reporting period. Format is yyyy-mm-dd.
 * `projects` - The projects to include in the report. Options: all, allactive, alldisabled, project id, or comma-delimited list of project ids.
 * `showzeros` - Flag indicating if results with zero hours should be returned. 1 = yes, 0 = no
