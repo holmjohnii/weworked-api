@@ -33,8 +33,9 @@ Returns a full week (7 days) of timesheet data.
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/weekly?userid=501&date=04/03/2020"`
 
 ### Parameters
-* `userid` - The unique identifier for the user.
-* `date` - The date of the timesheet to return.
+##### * = Required
+* `* userid` - The unique identifier for the user.
+* `* date` - The date of the timesheet to return.
 
 ### Returns
 Returns an array of timesheet objects for a specific week.
