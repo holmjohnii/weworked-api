@@ -15,8 +15,9 @@ Retrieves a single days timesheet.
 `curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets/daily?userid=501&date=04/05/2020"`
 
 ### Parameters
-* `userid` - The unique identifier for the user.
-* `date` - The date of the timesheet to return.
+##### * = Required
+* `* userid` - The unique identifier for the user.
+* `* date` - The date of the timesheet to return.
 
 ### Returns
 Returns a timesheet object for a specific day.
