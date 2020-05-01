@@ -17,7 +17,7 @@ Retrieves a single days timesheet.
 ### Parameters
 ##### * = Required
 * `* userid` - The unique identifier for the user.
-* `* date` - The date of the timesheet to return. Format yyyy-mm-dd.
+* `* date` - The date of the timesheet to return. Format is yyyy-mm-dd.
 
 ### Returns
 Returns a timesheet object for a specific day.
@@ -35,7 +35,7 @@ Returns a full week (7 days) of timesheet data.
 ### Parameters
 ##### * = Required
 * `* userid` - The unique identifier for the user.
-* `* date` - The date of the timesheet to return. Format yyyy-mm-dd.
+* `* date` - The date of the timesheet to return. Format is yyyy-mm-dd.
 
 ### Returns
 Returns an array of timesheet objects for a specific week.
