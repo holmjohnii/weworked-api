@@ -12,12 +12,12 @@ Retrieves a single days timesheet.
 `GET /v1/timesheets/daily`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets/daily?userid=501&date=04/05/2020"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets/daily?userid=501&date=2020-04-05"`
 
 ### Parameters
 ##### * = Required
 * `* userid` - The unique identifier for the user.
-* `* date` - The date of the timesheet to return.
+* `* date` - The date of the timesheet to return. Format yyyy-mm-dd.
 
 ### Returns
 Returns a timesheet object for a specific day.
@@ -30,12 +30,12 @@ Returns a full week (7 days) of timesheet data.
 `GET /v1/timesheets/weekly`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/weekly?userid=501&date=04/03/2020"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/weekly?userid=501&date=2020-04-05"`
 
 ### Parameters
 ##### * = Required
 * `* userid` - The unique identifier for the user.
-* `* date` - The date of the timesheet to return.
+* `* date` - The date of the timesheet to return. Format yyyy-mm-dd.
 
 ### Returns
 Returns an array of timesheet objects for a specific week.
