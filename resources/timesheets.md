@@ -30,7 +30,7 @@ Returns a full week (7 days) of timesheet data.
 `GET /v1/timesheets/weekly`
 
 ##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/weekly?userid=501&date=2020-04-05"`
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/timesheets/weekly?userid=501&date=2020-04-05"`
 
 ### Parameters
 ##### * = Required
