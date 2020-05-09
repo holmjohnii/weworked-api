@@ -1,5 +1,7 @@
 # The WeWorked API
-Welcome to API reference for WeWorked! The current version of the API is **`v1`**. 
+Welcome to the API reference for WeWorked! [WeWorked](https://www.weworked.com) is timesheet and invoicing software enjoyed by companies around the world. 
+
+The current version of the API is **`v1`**. 
 
 The WeWorked API is organized around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). The API provides read-only predictable resource-structured URLs that return [JSON-encoded](https://www.json.org/json-en.html) responses with standard HTTP response codes, authentication, and verbs.
 
