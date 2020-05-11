@@ -57,26 +57,6 @@ Returns an array of expense objects.
 
 -------------
 
-### The expense object attributes:
-
-| Attribute  | Description   |
-| ---------- | ------------- |
-| expensesId   | Unique identifier for an expense.  |
-| userId       | Unique identifier of the owner of the expense.  |
-| expenseDate    | The date of the expense. |
-| projectId       | The unique identifer of the project associated with the expense.  |
-| projectName      | The name of the project associated with the expense.  |
-| expenseCategoryId        | The unique identifer of the category associated with the expense.  |
-| expenseCategoryName    | The name of the expense category associated with the expenese.  |
-| receiptURL   | The URL of receipt image.  |
-| amount  | The amount of the expense.  |
-| isBillable    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
-| statusId    | The unique identifier of the status of the expense. |
-| statusName    | The name of the status of the expense. |
-| notes    | The notes associated with the expense. |
-
--------------
-
 ##### Example JSON Response
 ```json
   [
@@ -112,5 +92,23 @@ Returns an array of expense objects.
     }
 ]
 ```
+-------------
 
+### The expense object attributes:
+
+| Attribute  | Description   |
+| ---------- | ------------- |
+| expensesId   | Unique identifier for an expense.  |
+| userId       | Unique identifier of the owner of the expense.  |
+| expenseDate    | The date of the expense. |
+| projectId       | The unique identifer of the project associated with the expense.  |
+| projectName      | The name of the project associated with the expense.  |
+| expenseCategoryId        | The unique identifer of the category associated with the expense.  |
+| expenseCategoryName    | The name of the expense category associated with the expenese.  |
+| receiptURL   | The URL of receipt image.  |
+| amount  | The amount of the expense.  |
+| isBillable    | Flag indicating if the expense is billable. 1 = billable, 0 = not billable |
+| statusId    | The unique identifier of the status of the expense. |
+| statusName    | The name of the status of the expense. |
+| notes    | The notes associated with the expense. |
 
