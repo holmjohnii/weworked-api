@@ -20,6 +20,46 @@ No parameters
 ### Returns
 Returns a user object if a valid identifier was provided. 
 
+### Examples JSON Response
+```json
+{
+    "userId": "501",
+    "email": "john@theemail.com",
+    "approvesFor": "Everyone",
+    "companyId": "416",
+    "isAdmin": "1",
+    "firstName": "John",
+    "lastName": "Doe",
+    "title": "Account Owner",
+    "internalId": "123",
+    "trackLeave": "1",
+    "isActive": "1",
+    "hireDate": "2012-10-10 00:00:00",
+    "hourlyRate": "25.00",
+    "payType": "S",
+    "hourlyPayRate": null,
+    "projectsAssigned": [
+        {
+            "ProjectId": "124732",
+            "ProjectName": "Brownstone Site"
+        },
+        {
+            "ProjectId": "121",
+            "ProjectName": "Eaglewide Lane"
+        },
+        {
+            "ProjectId": "175607",
+            "ProjectName": "WeUp Academy"
+        }
+    ],
+    "country": "United States",
+    "phone": "301-555-3232",
+    "address": "Acorda Lane",
+    "city": "Upper Marlboro",
+    "state": "MD",
+    "zip": "20772"
+}
+```
 -------------
 
 ## List all users
@@ -68,8 +108,8 @@ Returns an array of user objects.
 -------------
 
 ##### Example JSON Response
-```SAMPLE RESPONSE
-WILL
-GO HERE```
+```json
+
+```
 
 
