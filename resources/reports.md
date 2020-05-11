@@ -120,6 +120,33 @@ Returns detailed line item timesheet data with comments.
 
 #### Example JSON Response
 ```json
-
+[
+    {
+        "UserId": "70240",
+        "InternalId": null,
+        "FirstName": "Taylor",
+        "LastName": "Timber",
+        "date": "2019-06-17",
+        "project": "Cramer Index",
+        "task": "IND",
+        "taskCode": "",
+        "billable": "1",
+        "hours": "6.00",
+        "comments": "Reviewed the filing for the last quarter."
+    },
+    {
+        "UserId": "70233",
+        "InternalId": "758",
+        "FirstName": "Kennedy",
+        "LastName": "Rolands",
+        "date": "2019-06-17",
+        "project": "Novavax",
+        "task": "Standard",
+        "taskCode": "",
+        "billable": "1",
+        "hours": "8.00",
+        "comments": null
+    }
+]
 ```
 
