@@ -135,7 +135,7 @@ Returns an array of users.
             "country": "US",
             "hourlyRate": null,
             "address": "444 Lane Ct,
-            "city": "Suitland,
+            "city": "Suitland",
             "state": "MD",
             "zip": "20744",
             "phone": "301-555-2344",
