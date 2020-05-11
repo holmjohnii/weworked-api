@@ -52,7 +52,7 @@ Returns an array of invoice objects.
         "discount": "",
         "isActive": "1",
         "isPaid": "1",
-        "notes": "03/10/2010 - 03/10/2013 Projects: Smithline, Read Center, Sams",
+        "notes": "12/01/2019 - 12/31/2019 Projects: Smithline, Read Center, Sams",
         "subject": "Monthly invoice",
         "attn": "",
         "createdBy": "501",
