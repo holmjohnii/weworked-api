@@ -20,6 +20,23 @@ No parameters
 ### Returns
 Returns a client object if a valid identifier was provided. 
 
+### Example JSON Response
+```json 
+{
+        "clientId": "18111",
+        "name": "Books II Read Inc.",
+        "address": "222 Lemons Road",
+        "address2": "Suite 200",
+        "city": "Southbank Victoria",
+        "state": "Australia",
+        "zip": "3006",
+        "country": "AU",
+        "isActive": "1",
+        "VATNumber": "",
+        "contact": "Maria Michele"
+    }
+```
+
 -------------
 
 ## List all clients
@@ -57,8 +74,35 @@ Returns an array of client objects.
 -------------
 
 ##### Example JSON Response
-```SAMPLE RESPONSE
-WILL
-GO HERE```
+```json 
+[
+    {
+        "clientId": "18111",
+        "name": "Books II Read Inc.",
+        "address": "222 Lemons Road",
+        "address2": "Suite 200",
+        "city": "Southbank Victoria",
+        "state": "Australia",
+        "zip": "3006",
+        "country": "AU",
+        "isActive": "1",
+        "VATNumber": "",
+        "contact": "Maria Michele"
+    },
+    {
+        "clientId": "46",
+        "name": "Armory Lite",
+        "address": "555 Painter Way",
+        "address2": "",
+        "city": "Capitol Heights",
+        "state": "MD",
+        "zip": "20743",
+        "country": "US",
+        "isActive": "1",
+        "VATNumber": "",
+        "contact": "John Dutchinson"
+    }
+]
+```
 
 
