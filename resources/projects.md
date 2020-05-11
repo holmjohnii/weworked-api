@@ -20,23 +20,8 @@ No parameters
 ### Returns
 Returns a project object if a valid identifier was provided. 
 
--------------
+### Examples JSON Response
 
-## List all projects
-Returns a list of your projects in alphabetical order.
-
-`GET /v1/projects`
-
-##### cURL Example
-`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/projects"`
-
-### Parameters
-No parameters
-
-### Returns
-Returns an array of client objects.
-
-## Example JSON Response
 ```json
 {
     "clientId": "46",
@@ -105,6 +90,103 @@ Returns an array of client objects.
         }
     ]
 }
+```
+-------------
+
+## List all projects
+Returns a list of your projects in alphabetical order.
+
+`GET /v1/projects`
+
+##### cURL Example
+`curl -H "x-api-key: YOURAPIKEY" -H "x-ww-user: YOUREMAIL" GET "https://api.weworked.com/v1/projects"`
+
+### Parameters
+No parameters
+
+### Returns
+Returns an array of projects.
+
+## Example JSON Response
+```json
+[
+    {
+        "Active": [
+            {
+                "ProjectId": "124732",
+                "CompanyId": "416",
+                "ClientId": "46",
+                "ProjectName": "General Store",
+                "ProjectCode": "",
+                "Overview": "",
+                "InvoiceMethodId": "1",
+                "ProjectRate": "20.00",
+                "BudgetCost": "9500.00",
+                "BudgetHours": "68.00",
+                "IsBillable": "1",
+                "IsSysProject": "0",
+                "IsActive": "1",
+                "CreatedBy": "501",
+                "CreatedOn": "2012-10-10 19:24:31"
+            },
+            {
+                "ProjectId": "121",
+                "CompanyId": "416",
+                "ClientId": "46",
+                "ProjectName": "Perry Design",
+                "ProjectCode": "",
+                "Overview": "Perry buildout",
+                "InvoiceMethodId": "1",
+                "ProjectRate": "20.00",
+                "BudgetCost": 130000.00",
+                "BudgetHours": "0.00",
+                "IsBillable": "1",
+                "IsSysProject": "0",
+                "IsActive": "1",
+                "CreatedBy": "501",
+                "CreatedOn": "2012-10-10 19:24:31"
+            }
+        ],
+        "Archived": [
+            {
+                "ProjectId": "4168",
+                "CompanyId": "416",
+                "ClientId": "46",
+                "ProjectName": "Sams",
+                "ProjectCode": "SAM990",
+                "Overview": "Sams Construction",
+                "InvoiceMethodId": "2",
+                "ProjectRate": "0.00",
+                "BudgetCost": "5000.00",
+                "BudgetHours": "100.00",
+                "IsBillable": "1",
+                "IsSysProject": "0",
+                "IsActive": "0",
+                "CreatedBy": "0",
+                "CreatedOn": "2013-02-25 11:13:09"
+            }
+        ],
+        "Leave": [
+            {
+                "ProjectId": "120",
+                "CompanyId": "416",
+                "ClientId": "46",
+                "ProjectName": "Leave",
+                "ProjectCode": "",
+                "Overview": "Default for leave DO NOT REMOVE",
+                "InvoiceMethodId": null,
+                "ProjectRate": null,
+                "BudgetCost": null,
+                "BudgetHours": null,
+                "IsBillable": "0",
+                "IsSysProject": "1",
+                "IsActive": "1",
+                "CreatedBy": "501",
+                "CreatedOn": "2012-10-10 19:24:31"
+            }
+        ]
+    }
+]
 ```
 
 -------------
