@@ -122,10 +122,89 @@ Returns an array of invoice objects.
 -------------
 
 ##### Example JSON Response
-```SAMPLE RESPONSE
-WILL
-GO HERE```
-
-
-
-
+```json
+[
+{
+        "invoiceId": "627",
+        "companyId": "416",
+        "invoiceDate": "2020-01-03",
+        "invoiceNum": "1401-2",
+        "dueDate": "2020-01-03",
+        "billTo": "Smithfield Supplies",
+        "clientId": "46",
+        "paymentTerms": "1",
+        "currencySymbol": "USD",
+        "tax": "",
+        "discount": "",
+        "isActive": "1",
+        "isPaid": "1",
+        "notes": "12/01/2019 - 12/31/2019 Projects: Smithline, Read Center, Sams",
+        "subject": "Monthly invoice",
+        "attn": "",
+        "createdBy": "501",
+        "createdOn": "2020-01-15 19:08:06",
+        "lineItems": [
+            {
+                "invoiceLineItemId": "6473",
+                "invoiceId": "627",
+                "quantity": "1247.00",
+                "description": "John Holmes II (Smithline: Hrs Worked)",
+                "unitPrice": "20.00",
+                "total": "24940.0000",
+                "createdBy": "501",
+                "createdOn": "2020-01-04 19:08:06"
+            }
+        ],
+        "subTotal": "24940.00",
+        "taxAmount": "0",
+        "discountAmount": "0",
+        "amountDue": "24940"
+    },
+    {
+        "invoiceId": "628",
+        "companyId": "416",
+        "invoiceDate": "2014-01-30",
+        "invoiceNum": "1401-3",
+        "dueDate": "2014-01-30",
+        "billTo": "State of Maryland",
+        "clientId": "50",
+        "paymentTerms": "1",
+        "currencySymbol": "",
+        "tax": null,
+        "discount": null,
+        "isActive": "1",
+        "isPaid": "0",
+        "notes": "02/07/2020 - 02/14/2020 Projects: Payroll System",
+        "subject": "Payroll Build",
+        "attn": null,
+        "createdBy": "501",
+        "createdOn": "2020-02-14 19:29:22",
+        "lineItems": [
+            {
+                "invoiceLineItemId": "6474",
+                "invoiceId": "628",
+                "quantity": "16.00",
+                "description": "Requirements (Company Name: State of MD)",
+                "unitPrice": "20.00",
+                "total": "320.0000",
+                "createdBy": "501",
+                "createdOn": "2020-01-30 19:29:23"
+            },
+            {
+                "invoiceLineItemId": "6475",
+                "invoiceId": "628",
+                "quantity": "1289.00",
+                "description": "Design (Company Name: State of MD)",
+                "unitPrice": "20.00",
+                "total": "25780.0000",
+                "createdBy": "501",
+                "createdOn": "2020-01-30 19:29:23"
+            }
+        ],
+        "subTotal": "26100.00",
+        "taxAmount": "0",
+        "discountAmount": "0",
+        "amountDue": "26100"
+    }
+]
+```
