@@ -103,7 +103,7 @@ Returns an array of expense objects.
         "projectName": "Chemical Site",
         "expenseCategoryId": "131070",
         "expenseCategoryName": "Travel",
-        "receiptURL": 250yo4rq_app.jpg,
+        "receiptURL": "250yo4rq_app.jpg",
         "amount": "350.00",
         "isBillable": "0",
         "statusId": "1",
