@@ -108,7 +108,7 @@ Returns an array of timesheet objects for a specific week.
             "longDesc": "Requirements Gathering",
             "shortDesc": "REQ",
             "hours": "8.00",
-            "comment": "Meet with client at the office fo finalize project.",
+            "comment": "Met with client at the office fo finalize project.",
             "isApproved": "0"
         }
     ],
@@ -141,7 +141,7 @@ Returns an array of timesheet objects for a specific week.
                     "longDesc": "Requirements Gathering",
                     "shortDesc": "REQ",
                     "hours": "8.50",
-                    "comment": "Meet with client at the office fo finalize project.",
+                    "comment": "Met with client at the office fo finalize project.",
                     "isApproved": "0"
                 }
             ],
