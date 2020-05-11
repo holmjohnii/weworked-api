@@ -93,7 +93,34 @@ Returns an array of timesheet objects for a specific week.
 
 -------------
 
-##### Example JSON Response
+##### Example JSON Response for daily timesheet
+```json
+{
+    "specificDate": "2020-04-27",
+    "totalHours": "0.00",
+    "status": "Not Submitted",
+    "tasks": [
+        {
+            "hrsWorkedId": "46180607",
+            "specificDate": "2020-04-27",
+            "projectName": "Chanel",
+            "projectTaskId": "841428",
+            "longDesc": "Fetty",
+            "shortDesc": null,
+            "hours": "0.00",
+            "comment": null,
+            "isApproved": "0"
+        }
+    ],
+    "clockInOut": {
+        "clockactions": []
+    }
+}
+
+```
+-------------
+
+##### Example JSON Response for weekly timesheet
 ```json
 {
     "startDate": "2020-04-27",
