@@ -57,7 +57,7 @@ Returns an array of expense objects.
 
 -------------
 
-##### Example JSON Response
+#### Example JSON Response
 ```json
   [
     {
