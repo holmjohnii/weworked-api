@@ -20,6 +20,24 @@ No parameters
 ### Returns
 Returns an expense object if a valid identifier was provided. 
 
+### Example JSON Response
+```json
+  {
+      "expenseId": "57873",
+      "userId": "70240",
+      "expenseDate": "2019-06-19",
+      "projectId": "121",
+      "projectName": "Salon Rebuild",
+      "expenseCategoryId": "131069",
+      "expenseCategoryName": "Meals",
+      "receiptURL": "211yo4rq_app.jpg",
+      "amount": "50.00",
+      "isBillable": "1",
+      "statusId": "1",
+      "statusName": "Pending",
+      "notes": ""
+  }
+```
 -------------
 
 ## List all expenses
@@ -60,8 +78,39 @@ Returns an array of expense objects.
 -------------
 
 ##### Example JSON Response
-```SAMPLE RESPONSE
-WILL
-GO HERE```
+```json
+  [
+    {
+        "expenseId": "57873",
+        "userId": "70240",
+        "expenseDate": "2019-06-19",
+        "projectId": "121",
+        "projectName": "Salon Rebuild",
+        "expenseCategoryId": "131069",
+        "expenseCategoryName": "Meals",
+        "receiptURL": "211yo4rq_app.jpg",
+        "amount": "50.00",
+        "isBillable": "1",
+        "statusId": "1",
+        "statusName": "Pending",
+        "notes": ""
+    },
+    {
+        "expenseId": "57823",
+        "userId": "70240",
+        "expenseDate": "2019-06-20",
+        "projectId": "123",
+        "projectName": "Chemical Site",
+        "expenseCategoryId": "131070",
+        "expenseCategoryName": "Travel",
+        "receiptURL": 250yo4rq_app.jpg,
+        "amount": "350.00",
+        "isBillable": "0",
+        "statusId": "1",
+        "statusName": "Approved",
+        "notes": "Flight to FL"
+    }
+]
+```
 
 
