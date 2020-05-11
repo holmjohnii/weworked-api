@@ -27,6 +27,72 @@ Retrieves the summary by person and task report.
 ### Returns
 Returns a summary of timesheet data by person and task.
 
+### Example JSON Response
+```json
+[
+    {
+        "FirstName": "Daniel",
+        "LastName": "Scott",
+        "UserId": "70240",
+        "InternalId": "",
+        "Rows": [
+            {
+                "project": "Tech Builder Site",
+                "task": "Programming",
+                "taskCode": "PROG23",
+                "billable": "1",
+                "invoiceMethodId": "1",
+                "invoiceMethodName": "Task Rate",
+                "rate": "10.00",
+                "hours": "20.00",
+                "total": "200.00"
+            },
+            {
+                "project": "Tech Builder Site",
+                "task": "Design",
+                "taskCode": "",
+                "billable": "1",
+                "invoiceMethodId": "1",
+                "invoiceMethodName": "Task Rate",
+                "rate": "25.00",
+                "hours": "12.00",
+                "total": "300.00"
+            }
+        ]
+    },
+    {
+        "FirstName": "Lisa",
+        "LastName": "Reginald",
+        "UserId": "2815",
+        "InternalId": "",
+        "Rows": [
+            {
+                "project": "Leave",
+                "task": "Annual",
+                "taskCode": "",
+                "billable": "0",
+                "invoiceMethodId": null,
+                "invoiceMethodName": null,
+                "rate": 0,
+                "hours": "8.00",
+                "total": 0
+            },
+            {
+                "project": "Leave",
+                "task": "Personal",
+                "taskCode": "",
+                "billable": "0",
+                "invoiceMethodId": null,
+                "invoiceMethodName": null,
+                "rate": 0,
+                "hours": "8.00",
+                "total": 0
+            }
+        ]
+    }
+]
+```
+
 -------------
 
 ## Retrieve detailed line items with comments report
@@ -52,8 +118,8 @@ Returns detailed line item timesheet data with comments.
 
 -------------
 
-##### Example JSON Response
-```SAMPLE RESPONSE
-WILL
-GO HERE```
+#### Example JSON Response
+```json
+
+```
 
