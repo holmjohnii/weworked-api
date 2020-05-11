@@ -34,7 +34,7 @@ Returns a client object if a valid identifier was provided.
         "isActive": "1",
         "VATNumber": "",
         "contact": "Maria Michele"
-    }
+}
 ```
 
 -------------
