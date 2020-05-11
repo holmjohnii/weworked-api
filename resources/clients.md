@@ -55,24 +55,6 @@ Returns an array of client objects.
 
 -------------
 
-### The client object attributes:
-
-| Attribute  | Description   |
-| ---------- | ------------- |
-| clientId   | Unique identifier for the client.  |
-| name       | The client's name.  |
-| address    | The client's address line 1. |
-| address2    | The client's address line 2. |
-| city       | The client's city.  |
-| state      | The client's state.  |
-| zip        | The client's zipcode.  |
-| country    | The client's country.  |
-| isActive   | Flag indicating if the client is active or disabled. 1 = active, 0 = disabled  |
-| VATNumber  | The client's VAT number.  |
-| contact    | The main client's point of contact.  |
-
--------------
-
 ##### Example JSON Response
 ```json 
 [
@@ -104,5 +86,23 @@ Returns an array of client objects.
     }
 ]
 ```
+-------------
+
+### The client object attributes:
+
+| Attribute  | Description   |
+| ---------- | ------------- |
+| clientId   | Unique identifier for the client.  |
+| name       | The client's name.  |
+| address    | The client's address line 1. |
+| address2    | The client's address line 2. |
+| city       | The client's city.  |
+| state      | The client's state.  |
+| zip        | The client's zipcode.  |
+| country    | The client's country.  |
+| isActive   | Flag indicating if the client is active or disabled. 1 = active, 0 = disabled  |
+| VATNumber  | The client's VAT number.  |
+| contact    | The main client's point of contact.  |
+
 
 
