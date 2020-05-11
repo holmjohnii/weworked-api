@@ -97,18 +97,18 @@ Returns an array of timesheet objects for a specific week.
 ```json
 {
     "specificDate": "2020-04-27",
-    "totalHours": "0.00",
+    "totalHours": "8.00",
     "status": "Not Submitted",
     "tasks": [
         {
             "hrsWorkedId": "46180607",
             "specificDate": "2020-04-27",
-            "projectName": "Chanel",
+            "projectName": "Smithfield Website Design",
             "projectTaskId": "841428",
-            "longDesc": "Fetty",
-            "shortDesc": null,
-            "hours": "0.00",
-            "comment": null,
+            "longDesc": "Requirements Gathering",
+            "shortDesc": "REQ",
+            "hours": "8.00",
+            "comment": "Meet with client at the office fo finalize project.",
             "isApproved": "0"
         }
     ],
@@ -125,23 +125,23 @@ Returns an array of timesheet objects for a specific week.
 {
     "startDate": "2020-04-27",
     "endDate": "2020-05-03",
-    "totalHours": "8.00",
+    "totalHours": "40.00",
     "status": "Not Submitted",
     "days": [
         {
             "specificDate": "2020-04-27",
-            "totalHours": "0.00",
+            "totalHours": "8.50",
             "status": "Not Submitted",
             "tasks": [
                 {
                     "hrsWorkedId": "46180607",
                     "specificDate": "2020-04-27",
-                    "projectName": "Chanel",
+                    "projectName": "Smithfield Website Design",
                     "projectTaskId": "841428",
-                    "longDesc": "Fetty",
-                    "shortDesc": null,
-                    "hours": "0.00",
-                    "comment": null,
+                    "longDesc": "Requirements Gathering",
+                    "shortDesc": "REQ",
+                    "hours": "8.50",
+                    "comment": "Meet with client at the office fo finalize project.",
                     "isApproved": "0"
                 }
             ],
@@ -151,17 +151,17 @@ Returns an array of timesheet objects for a specific week.
         },
         {
             "specificDate": "2020-04-28",
-            "totalHours": "0.00",
+            "totalHours": "2.00",
             "status": "Not Submitted",
             "tasks": [
                 {
                     "hrsWorkedId": "46180608",
                     "specificDate": "2020-04-28",
-                    "projectName": "Chanel",
+                    "projectName": "Smithfield Website Design",
                     "projectTaskId": "841428",
-                    "longDesc": "Fetty",
-                    "shortDesc": null,
-                    "hours": "0.00",
+                    "longDesc": "Requirements Gathering",
+                    "shortDesc": "REQ",
+                    "hours": "2.00",
                     "comment": null,
                     "isApproved": "0"
                 }
@@ -176,14 +176,14 @@ Returns an array of timesheet objects for a specific week.
             "status": "Not Submitted",
             "tasks": [
                 {
-                    "hrsWorkedId": "46180609",
+                    "hrsWorkedId": "46180608",
                     "specificDate": "2020-04-29",
-                    "projectName": "Chanel",
+                    "projectName": "Smithfield Website Design",
                     "projectTaskId": "841428",
-                    "longDesc": "Fetty",
-                    "shortDesc": null,
+                    "longDesc": "Requirements Gathering",
+                    "shortDesc": "REQ",
                     "hours": "8.00",
-                    "comment": "what is good",
+                    "comment": null,
                     "isApproved": "0"
                 }
             ],
@@ -193,17 +193,17 @@ Returns an array of timesheet objects for a specific week.
         },
         {
             "specificDate": "2020-04-30",
-            "totalHours": "0.00",
+            "totalHours": "8.00",
             "status": "Not Submitted",
             "tasks": [
                 {
-                    "hrsWorkedId": "46180610",
+                    "hrsWorkedId": "46180608",
                     "specificDate": "2020-04-30",
-                    "projectName": "Chanel",
+                    "projectName": "Smithfield Website Design",
                     "projectTaskId": "841428",
-                    "longDesc": "Fetty",
-                    "shortDesc": null,
-                    "hours": "0.00",
+                    "longDesc": "Requirements Gathering",
+                    "shortDesc": "REQ",
+                    "hours": "8.00",
                     "comment": null,
                     "isApproved": "0"
                 }
@@ -214,17 +214,17 @@ Returns an array of timesheet objects for a specific week.
         },
         {
             "specificDate": "2020-05-01",
-            "totalHours": "0.00",
+            "totalHours": "4.50",
             "status": "Not Submitted",
             "tasks": [
                 {
                     "hrsWorkedId": "46180611",
                     "specificDate": "2020-05-01",
-                    "projectName": "Chanel",
+                    "projectName": "Smithfield Website Design",
                     "projectTaskId": "841428",
-                    "longDesc": "Fetty",
-                    "shortDesc": null,
-                    "hours": "0.00",
+                    "longDesc": "Requirements Gathering",
+                    "shortDesc": "REQ",
+                    "hours": "4.50",
                     "comment": null,
                     "isApproved": "0"
                 }
@@ -235,17 +235,17 @@ Returns an array of timesheet objects for a specific week.
         },
         {
             "specificDate": "2020-05-02",
-            "totalHours": "0.00",
+            "totalHours": "1.00",
             "status": "Not Submitted",
             "tasks": [
                 {
                     "hrsWorkedId": "46180612",
                     "specificDate": "2020-05-02",
-                    "projectName": "Chanel",
+                    "projectName": "Smithfield Website Design",
                     "projectTaskId": "841428",
-                    "longDesc": "Fetty",
-                    "shortDesc": null,
-                    "hours": "0.00",
+                    "longDesc": "Requirements Gathering",
+                    "shortDesc": "REQ",
+                    "hours": "1.00",
                     "comment": null,
                     "isApproved": "0"
                 }
@@ -256,17 +256,17 @@ Returns an array of timesheet objects for a specific week.
         },
         {
             "specificDate": "2020-05-03",
-            "totalHours": "0.00",
+            "totalHours": "8.00",
             "status": "Not Submitted",
             "tasks": [
                 {
                     "hrsWorkedId": "46180613",
                     "specificDate": "2020-05-03",
-                    "projectName": "Chanel",
+                    "projectName": "Smithfield Website Design",
                     "projectTaskId": "841428",
-                    "longDesc": "Fetty",
-                    "shortDesc": null,
-                    "hours": "0.00",
+                    "longDesc": "Requirements Gathering",
+                    "shortDesc": "REQ",
+                    "hours": "8.00",
                     "comment": null,
                     "isApproved": "0"
                 }
