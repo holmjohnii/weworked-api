@@ -138,7 +138,7 @@ Returns an array of projects.
                 "Overview": "Perry buildout",
                 "InvoiceMethodId": "1",
                 "ProjectRate": "20.00",
-                "BudgetCost": 130000.00",
+                "BudgetCost": "130000.00",
                 "BudgetHours": "0.00",
                 "IsBillable": "1",
                 "IsSysProject": "0",
@@ -230,12 +230,7 @@ Returns an array of projects.
 | createdBy      | The unique identifier of the user that created the task.  |
 | createdOn      | The time stamp of when the task was created.  |
 
--------------
 
-##### Example JSON Response
-```SAMPLE RESPONSE
-WILL
-GO HERE```
 
 
 
