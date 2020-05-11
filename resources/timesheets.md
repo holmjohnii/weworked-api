@@ -22,6 +22,31 @@ Retrieves a single days timesheet.
 ### Returns
 Returns a timesheet object for a specific day.
 
+### Example JSON Response
+```json
+{
+    "specificDate": "2020-04-29",
+    "totalHours": "8.00",
+    "status": "Approved",
+    "tasks": [
+        {
+            "hrsWorkedId": "46180609",
+            "specificDate": "2020-04-29",
+            "projectName": "Builders Square",
+            "projectTaskId": "841428",
+            "longDesc": "Meetings",
+            "shortDesc": "M202",
+            "hours": "8.00",
+            "comment": "Discussed the addition of the panel room.",
+            "isApproved": "1"
+        }
+    ],
+    "clockInOut": {
+        "clockactions": []
+    }
+}
+```
+
 -------------
 
 ## Retrieve a weekly timesheet
