@@ -36,6 +36,77 @@ No parameters
 ### Returns
 Returns an array of client objects.
 
+## Example JSON Response
+```json
+{
+    "clientId": "46",
+    "clientName": "Company Name",
+    "projectId": "124732",
+    "projectName": "Landscape Design",
+    "projectCode": "",
+    "overview": "Landscape design for Westfield Lane",
+    "createdBy": "501",
+    "companyId": "416",
+    "isBillable": "1",
+    "budgetedCost": "1200.00",
+    "budgetedHours": "30.00",
+    "invoiceMethod": "1",
+    "invoiceMethodName": "Task Hourly Rate",
+    "projectRate": "20.00",
+    "isSystemProject": "0",
+    "peopleAssigned": [
+        {
+            "userId": "2815",
+            "email": "smith@theemail.com",
+            "firstName": "Smith",
+            "lastName": "Lee",
+            "title": "Architect",
+            "isActive": "1"
+        },
+        {
+            "userId": "501",
+            "email": "john@theemail.com",
+            "firstName": "John",
+            "lastName": "Doe",
+            "title": "Account Owner",
+            "isActive": "1"
+        }
+    ],
+    "tasks": [
+        {
+            "projectTaskId": "841428",
+            "projectId": "124732",
+            "shortDesc": "DEZ101",
+            "longDesc": "Design",
+            "isBillable": "1",
+            "companyId": "416",
+            "isActive": "1",
+            "taskRate": "75.00",
+            "isLeaveField": "0",
+            "budgetedCost": null,
+            "budgetedHours": null,
+            "createdBy": "501",
+            "createdOn": "2015-05-11 16:41:06"
+        },
+        {
+            "projectTaskId": "841424",
+            "projectId": "124732",
+            "shortDesc": "",
+            "longDesc": "Meetings",
+            "isBillable": "1",
+            "companyId": "416",
+            "isActive": "1",
+            "taskRate": "20.00",
+            "isLeaveField": "0",
+            "budgetedCost": null,
+            "budgetedHours": null,
+            "createdBy": "501",
+            "createdOn": "2012-10-10 19:24:31"
+        }
+    ]
+}
+```
+
 -------------
 
 ### The project object attributes:
