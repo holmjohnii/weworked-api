@@ -36,6 +36,46 @@ No parameters
 ### Returns
 Returns an array of invoice objects.
 
+### Examples JSON Response
+```json 
+{
+        "invoiceId": "627",
+        "companyId": "416",
+        "invoiceDate": "2020-01-03",
+        "invoiceNum": "1401-2",
+        "dueDate": "2020-01-03",
+        "billTo": "Smithfield Supplies",
+        "clientId": "46",
+        "paymentTerms": "1",
+        "currencySymbol": "USD",
+        "tax": "",
+        "discount": "",
+        "isActive": "1",
+        "isPaid": "1",
+        "notes": "03/10/2010 - 03/10/2013 Projects: Smithline, Read Center, Sams",
+        "subject": "Monthly invoice",
+        "attn": "",
+        "createdBy": "501",
+        "createdOn": "2020-01-15 19:08:06",
+        "lineItems": [
+            {
+                "invoiceLineItemId": "6473",
+                "invoiceId": "627",
+                "quantity": "1247.00",
+                "description": "John Holmes II (Smithline: Hrs Worked)",
+                "unitPrice": "20.00",
+                "total": "24940.0000",
+                "createdBy": "501",
+                "createdOn": "2020-01-04 19:08:06"
+            }
+        ],
+        "subTotal": "24940.00",
+        "taxAmount": "0",
+        "discountAmount": "0",
+        "amountDue": "24940"
+    }
+```
+
 -------------
 
 ### The invoice object attributes:
