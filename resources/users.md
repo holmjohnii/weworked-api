@@ -134,7 +134,7 @@ Returns an array of users.
             "hireDate": "2020-2-13",
             "country": "US",
             "hourlyRate": null,
-            "address": "444 Lane Ct,
+            "address": "444 Lane Ct",
             "city": "Suitland",
             "state": "MD",
             "zip": "20744",
