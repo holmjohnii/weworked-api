@@ -94,6 +94,160 @@ Returns an array of timesheet objects for a specific week.
 -------------
 
 ##### Example JSON Response
-```SAMPLE RESPONSE
-WILL
-GO HERE```
+```json
+{
+    "startDate": "2020-04-27",
+    "endDate": "2020-05-03",
+    "totalHours": "8.00",
+    "status": "Not Submitted",
+    "days": [
+        {
+            "specificDate": "2020-04-27",
+            "totalHours": "0.00",
+            "status": "Not Submitted",
+            "tasks": [
+                {
+                    "hrsWorkedId": "46180607",
+                    "specificDate": "2020-04-27",
+                    "projectName": "Chanel",
+                    "projectTaskId": "841428",
+                    "longDesc": "Fetty",
+                    "shortDesc": null,
+                    "hours": "0.00",
+                    "comment": null,
+                    "isApproved": "0"
+                }
+            ],
+            "clockInOut": {
+                "clockactions": []
+            }
+        },
+        {
+            "specificDate": "2020-04-28",
+            "totalHours": "0.00",
+            "status": "Not Submitted",
+            "tasks": [
+                {
+                    "hrsWorkedId": "46180608",
+                    "specificDate": "2020-04-28",
+                    "projectName": "Chanel",
+                    "projectTaskId": "841428",
+                    "longDesc": "Fetty",
+                    "shortDesc": null,
+                    "hours": "0.00",
+                    "comment": null,
+                    "isApproved": "0"
+                }
+            ],
+            "clockInOut": {
+                "clockactions": []
+            }
+        },
+        {
+            "specificDate": "2020-04-29",
+            "totalHours": "8.00",
+            "status": "Not Submitted",
+            "tasks": [
+                {
+                    "hrsWorkedId": "46180609",
+                    "specificDate": "2020-04-29",
+                    "projectName": "Chanel",
+                    "projectTaskId": "841428",
+                    "longDesc": "Fetty",
+                    "shortDesc": null,
+                    "hours": "8.00",
+                    "comment": "what is good",
+                    "isApproved": "0"
+                }
+            ],
+            "clockInOut": {
+                "clockactions": []
+            }
+        },
+        {
+            "specificDate": "2020-04-30",
+            "totalHours": "0.00",
+            "status": "Not Submitted",
+            "tasks": [
+                {
+                    "hrsWorkedId": "46180610",
+                    "specificDate": "2020-04-30",
+                    "projectName": "Chanel",
+                    "projectTaskId": "841428",
+                    "longDesc": "Fetty",
+                    "shortDesc": null,
+                    "hours": "0.00",
+                    "comment": null,
+                    "isApproved": "0"
+                }
+            ],
+            "clockInOut": {
+                "clockactions": []
+            }
+        },
+        {
+            "specificDate": "2020-05-01",
+            "totalHours": "0.00",
+            "status": "Not Submitted",
+            "tasks": [
+                {
+                    "hrsWorkedId": "46180611",
+                    "specificDate": "2020-05-01",
+                    "projectName": "Chanel",
+                    "projectTaskId": "841428",
+                    "longDesc": "Fetty",
+                    "shortDesc": null,
+                    "hours": "0.00",
+                    "comment": null,
+                    "isApproved": "0"
+                }
+            ],
+            "clockInOut": {
+                "clockactions": []
+            }
+        },
+        {
+            "specificDate": "2020-05-02",
+            "totalHours": "0.00",
+            "status": "Not Submitted",
+            "tasks": [
+                {
+                    "hrsWorkedId": "46180612",
+                    "specificDate": "2020-05-02",
+                    "projectName": "Chanel",
+                    "projectTaskId": "841428",
+                    "longDesc": "Fetty",
+                    "shortDesc": null,
+                    "hours": "0.00",
+                    "comment": null,
+                    "isApproved": "0"
+                }
+            ],
+            "clockInOut": {
+                "clockactions": []
+            }
+        },
+        {
+            "specificDate": "2020-05-03",
+            "totalHours": "0.00",
+            "status": "Not Submitted",
+            "tasks": [
+                {
+                    "hrsWorkedId": "46180613",
+                    "specificDate": "2020-05-03",
+                    "projectName": "Chanel",
+                    "projectTaskId": "841428",
+                    "longDesc": "Fetty",
+                    "shortDesc": null,
+                    "hours": "0.00",
+                    "comment": null,
+                    "isApproved": "0"
+                }
+            ],
+            "clockInOut": {
+                "clockactions": []
+            }
+        }
+    ],
+    "comments": []
+}```
