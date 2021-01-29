@@ -22,7 +22,7 @@ Retrieves the summary by person and task report.
 * `* showzeros` - Flag indicating if results with zero hours should be returned. 1 = yes, 0 = no
 * `* taskstatus` - The status of tasks to include in the report. Options: all, billable, or nonbillable.
 * `* timestatus` - The status of the time entries to include in the report. Options: all, approved, or notapproved. 
-* `* users` - The unique identifiers of the users to include in the report. A single user id or a comma-delimited list of user ids.
+* `* users` - The unique identifiers of the users to include in the report. Options: all, a single user id, or a comma-delimited list of user ids.
 
 ### Returns
 Returns a summary of timesheet data by person and task.
