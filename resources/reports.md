@@ -31,10 +31,10 @@ Returns a summary of timesheet data by person and task.
 ```json
 [
     {
-        "FirstName": "Daniel",
-        "LastName": "Scott",
-        "UserId": "70240",
-        "InternalId": "",
+        "firstName": "Daniel",
+        "lastName": "Scott",
+        "userId": "70240",
+        "internalId": "",
         "Rows": [
             {
                 "project": "Tech Builder Site",
@@ -61,10 +61,10 @@ Returns a summary of timesheet data by person and task.
         ]
     },
     {
-        "FirstName": "Lisa",
-        "LastName": "Reginald",
-        "UserId": "2815",
-        "InternalId": "",
+        "firstName": "Lisa",
+        "lastName": "Reginald",
+        "userId": "2815",
+        "internalId": "",
         "Rows": [
             {
                 "project": "Leave",
@@ -122,12 +122,14 @@ Returns detailed line item timesheet data with comments.
 ```json
 [
     {
-        "UserId": "70240",
-        "InternalId": null,
-        "FirstName": "Taylor",
-        "LastName": "Timber",
+        "userId": "70240",
+        "internalId": null,
+        "firstName": "Taylor",
+        "lastName": "Timber",
         "date": "2019-06-17",
         "project": "Cramer Index",
+        "projectId": "2344",
+        "taskId": "39404",
         "task": "IND",
         "taskCode": "",
         "billable": "1",
@@ -135,12 +137,14 @@ Returns detailed line item timesheet data with comments.
         "comments": "Reviewed the filing for the last quarter."
     },
     {
-        "UserId": "70233",
-        "InternalId": "758",
-        "FirstName": "Kennedy",
-        "LastName": "Rolands",
+        "userId": "70233",
+        "internalId": "758",
+        "firstName": "Kennedy",
+        "lastName": "Rolands",
         "date": "2019-06-17",
         "project": "Novavax",
+        "projectId": "3434",
+        "taskId": "90992",
         "task": "Standard",
         "taskCode": "",
         "billable": "1",
